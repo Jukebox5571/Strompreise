@@ -7,7 +7,7 @@ import os
 heute = datetime.now().date()
 
 # AwaTtar API-Endpunkt (AT oder DE)
-response = requests.get("https://api.awattar.de/v1/marketdata")
+response = requests.get("https://192.168.40.130:4747/RESTApi/FXInterface/EPEX15minIntraday?date=06.11.2024")
 data = response.json()["data"]
 
 # Daten extrahieren
