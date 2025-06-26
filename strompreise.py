@@ -10,7 +10,7 @@ token = os.getenv("STROM_API_TOKEN")             # ← aus GitHub Secret oder Um
 
 # === Header mit Token ===
 headers = {
-    "X-Token-ID": "CYpMHSpBCyMyCwQiNAKJlLGiaABEwFTTBoSTL92IYuLVurKBkuDeb8FfWU9wsIqhh6wnbdOFI57qauD08M4p3UWlpnVAy1vYTj9NZEAbxxJldZBxTvVjg4htfWiKKt3q"# oder z. B. "X-API-Token"
+    "X-Token-ID": "CYpMHSpBCyMyCwQiNAKJlLGiaABEwFTTBoSTL92IYuLVurKBkuDeb8FfWU9wsIqhh6wnbdOFI57qauD08M4p3UWlpnVAy1vYTj9NZEAbxxJldZBxTvVjg4htfWiKKt3q",# oder z. B. "X-API-Token"
     "Accept": "application/json"
 }
 
@@ -22,7 +22,8 @@ print(data)
 # === Daten vorbereiten ===
 preise = []
 for eintrag in data:
-    start = datetime.fromisoformat(eintrag["start_timestamp"][:-1])
+    start = datetime.fromtimestamp(eintrag["start_timestamp"])
+
     preis = eintrag["marketprice"] / 10  # z. B. Umrechnung in ct/kWh
     preise.append({
         "Datum": start.strftime("%Y-%m-%d"),
