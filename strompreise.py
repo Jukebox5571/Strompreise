@@ -1,35 +1,34 @@
-import requests
 import pandas as pd
+import requests
 from datetime import datetime, timedelta
-import os, sys
+import os
 
-url = "https://api.awattar.de/v1/marketdata"
-now = datetime.now()
-start_time = now.replace(hour=0, minute=0, second=0, microsecond=0)
-end_time = start_time + timedelta(days=1)
-params = { "start": int(start_time.timestamp() * 1000), "end": int(end_time.timestamp() * 1000) }
+# Aktuelles Datum
+heute = datetime.now().date()
 
-try:
-    resp = requests.get(url, params=params)
-    resp.raise_for_status()
-    data = resp.json().get("data", [])
-except Exception as e:
-    print(f"ERROR beim API-Abruf: {e}")
-    sys.exit(1)
+# AwaTtar API-Endpunkt (AT oder DE)
+response = requests.get("https://api.awattar.de/v1/marketdata")
+data = response.json()["data"]
 
-records = []
-for item in data:
-    t = datetime.fromtimestamp(item["start_timestamp"] / 1000)
-    price = round(item["marketprice"] / 10, 2)
-    records.append({"timestamp": t.strftime("%Y-%m-%d %H:%M:%S"), "preis_ct_kwh": price})
+# Daten extrahieren
+preise = []
+for eintrag in data:
+    start = datetime.fromisoformat(eintrag["start_timestamp"][:-1])
+    preis = eintrag["marketprice"] / 10  # Umrechnung in ct/kWh
+    preise.append({"Datum": start.strftime("%Y-%m-%d"), "Uhrzeit": start.strftime("%H:%M"), "Preis (ct/kWh)": preis})
 
-df_new = pd.DataFrame(records)
-file = "strompreise_awattar.csv"
+df_neu = pd.DataFrame(preise)
 
-if os.path.exists(file):
-    df_all = pd.concat([pd.read_csv(file), df_new]).drop_duplicates("timestamp")
+# Pfad zur CSV
+csv_datei = "strompreise_awattar.csv"
+
+# Prüfen, ob Datei existiert → Daten anhängen oder neu schreiben
+if os.path.exists(csv_datei):
+    df_alt = pd.read_csv(csv_datei)
+    # Duplikate vermeiden (z. B. falls schon einmal gespeichert)
+    df_gesamt = pd.concat([df_alt, df_neu]).drop_duplicates(subset=["Datum", "Uhrzeit"]).sort_values(by=["Datum", "Uhrzeit"])
 else:
-    df_all = df_new
+    df_gesamt = df_neu
 
-df_all.to_csv(file, index=False)
-print(f"✅ Gespeichert: {file}")
+# Speichern
+df_gesamt.to_csv(csv_datei, index=False)
