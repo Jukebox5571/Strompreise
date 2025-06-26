@@ -1,34 +1,51 @@
 import pandas as pd
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime
 import os
+import json
 
-# Aktuelles Datum
-heute = datetime.now().date()
+# === Konfiguration ===
+api_url = "https://192.168.40.130:4747/RESTApi/FXInterface/EPEX15minIntraday?date=06.11.2024" # ← Deine API-URL
+token = os.getenv("STROM_API_TOKEN")             # ← aus GitHub Secret oder Umgebungsvariable
 
-# AwaTtar API-Endpunkt (AT oder DE)
-response = requests.get("https://192.168.40.130:4747/RESTApi/FXInterface/EPEX15minIntraday?date=06.11.2024")
-data = response.json()["data"]
+# === Header mit Token ===
+headers = {
+    "X-Token-ID": "CYpMHSpBCyMyCwQiNAKJlLGiaABEwFTTBoSTL92IYuLVurKBkuDeb8FfWU9wsIqhh6wnbdOFI57qauD08M4p3UWlpnVAy1vYTj9NZEAbxxJldZBxTvVjg4htfWiKKt3q"# oder z. B. "X-API-Token"
+    "Accept": "application/json"
+}
 
-# Daten extrahieren
+# === Daten abrufen ===
+response = requests.get(api_url, headers=headers, verify=False)
+response.raise_for_status()
+data = response.json()["data"]  # evtl. anpassen, je nach API
+print(data)
+# === Daten vorbereiten ===
 preise = []
 for eintrag in data:
     start = datetime.fromisoformat(eintrag["start_timestamp"][:-1])
-    preis = eintrag["marketprice"] / 10  # Umrechnung in ct/kWh
-    preise.append({"Datum": start.strftime("%Y-%m-%d"), "Uhrzeit": start.strftime("%H:%M"), "Preis (ct/kWh)": preis})
+    preis = eintrag["marketprice"] / 10  # z. B. Umrechnung in ct/kWh
+    preise.append({
+        "Datum": start.strftime("%Y-%m-%d"),
+        "Uhrzeit": start.strftime("%H:%M"),
+        "Preis (ct/kWh)": preis
+    })
 
-df_neu = pd.DataFrame(preise)
+# === JSON-Datei speichern/ergänzen ===
+json_datei = "strompreise_awattar.json"
 
-# Pfad zur CSV
-csv_datei = "strompreise_awattar.csv"
-
-# Prüfen, ob Datei existiert → Daten anhängen oder neu schreiben
-if os.path.exists(csv_datei):
-    df_alt = pd.read_csv(csv_datei)
-    # Duplikate vermeiden (z. B. falls schon einmal gespeichert)
-    df_gesamt = pd.concat([df_alt, df_neu]).drop_duplicates(subset=["Datum", "Uhrzeit"]).sort_values(by=["Datum", "Uhrzeit"])
+if os.path.exists(json_datei):
+    # Alte Daten laden
+    with open(json_datei, "r", encoding="utf-8") as f:
+        alt = json.load(f)
+    # Kombinieren & Duplikate vermeiden
+    gesamt = {f'{e["Datum"]} {e["Uhrzeit"]}': e for e in alt + preise}
+    preise_gesamt = list(gesamt.values())
 else:
-    df_gesamt = df_neu
+    preise_gesamt = preise
 
-# Speichern
-df_gesamt.to_csv(csv_datei, index=False)
+# Sortieren nach Datum & Uhrzeit
+preise_gesamt.sort(key=lambda x: (x["Datum"], x["Uhrzeit"]))
+
+# Speichern als JSON
+with open(json_datei, "w", encoding="utf-8") as f:
+    json.dump(preise_gesamt, f, ensure_ascii=False, indent=2)
