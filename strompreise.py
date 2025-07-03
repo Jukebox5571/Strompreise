@@ -5,7 +5,7 @@ import os
 import json
 
 # === Konfiguration ===
-api_url = "https://192.168.40.130:4747/RESTApi/FXInterface/EPEX15minIntraday?date=20.06.2025"  # Deine API-URL
+api_url = "https://192.168.40.130:4747/RESTApi/FXInterface/EPEX15minIntraday?date=02.07.2025"  # Deine API-URL
 token = os.getenv("STROM_API_TOKEN")  # GitHub Secret / Umgebungsvariable
 
 # === Header mit Token ===
