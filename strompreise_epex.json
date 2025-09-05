@@ -48382,5 +48382,773 @@
   {
     "Zeitstempel": "2025-09-03T23:45:00",
     "Preis (ct/kWh)": 4.8719
+  },
+  {
+    "Zeitstempel": "2025-09-04T00:00:00",
+    "Preis (ct/kWh)": 5.5537
+  },
+  {
+    "Zeitstempel": "2025-09-04T00:15:00",
+    "Preis (ct/kWh)": 4.165
+  },
+  {
+    "Zeitstempel": "2025-09-04T00:30:00",
+    "Preis (ct/kWh)": 2.5835
+  },
+  {
+    "Zeitstempel": "2025-09-04T00:45:00",
+    "Preis (ct/kWh)": 1.9111
+  },
+  {
+    "Zeitstempel": "2025-09-04T01:00:00",
+    "Preis (ct/kWh)": 3.9734
+  },
+  {
+    "Zeitstempel": "2025-09-04T01:15:00",
+    "Preis (ct/kWh)": 2.9809
+  },
+  {
+    "Zeitstempel": "2025-09-04T01:30:00",
+    "Preis (ct/kWh)": 2.5073
+  },
+  {
+    "Zeitstempel": "2025-09-04T01:45:00",
+    "Preis (ct/kWh)": 1.8195
+  },
+  {
+    "Zeitstempel": "2025-09-04T02:00:00",
+    "Preis (ct/kWh)": 2.8429
+  },
+  {
+    "Zeitstempel": "2025-09-04T02:15:00",
+    "Preis (ct/kWh)": 2.9036
+  },
+  {
+    "Zeitstempel": "2025-09-04T02:30:00",
+    "Preis (ct/kWh)": 3.069
+  },
+  {
+    "Zeitstempel": "2025-09-04T02:45:00",
+    "Preis (ct/kWh)": 3.4986
+  },
+  {
+    "Zeitstempel": "2025-09-04T03:00:00",
+    "Preis (ct/kWh)": 3.5712
+  },
+  {
+    "Zeitstempel": "2025-09-04T03:15:00",
+    "Preis (ct/kWh)": 4.0163
+  },
+  {
+    "Zeitstempel": "2025-09-04T03:30:00",
+    "Preis (ct/kWh)": 4.8159
+  },
+  {
+    "Zeitstempel": "2025-09-04T03:45:00",
+    "Preis (ct/kWh)": 4.76
+  },
+  {
+    "Zeitstempel": "2025-09-04T04:00:00",
+    "Preis (ct/kWh)": 5.2277
+  },
+  {
+    "Zeitstempel": "2025-09-04T04:15:00",
+    "Preis (ct/kWh)": 6.8615
+  },
+  {
+    "Zeitstempel": "2025-09-04T04:30:00",
+    "Preis (ct/kWh)": 8.4002
+  },
+  {
+    "Zeitstempel": "2025-09-04T04:45:00",
+    "Preis (ct/kWh)": 8.8191
+  },
+  {
+    "Zeitstempel": "2025-09-04T05:00:00",
+    "Preis (ct/kWh)": 6.8604
+  },
+  {
+    "Zeitstempel": "2025-09-04T05:15:00",
+    "Preis (ct/kWh)": 8.4026
+  },
+  {
+    "Zeitstempel": "2025-09-04T05:30:00",
+    "Preis (ct/kWh)": 11.1812
+  },
+  {
+    "Zeitstempel": "2025-09-04T05:45:00",
+    "Preis (ct/kWh)": 13.7933
+  },
+  {
+    "Zeitstempel": "2025-09-04T06:00:00",
+    "Preis (ct/kWh)": 9.5033
+  },
+  {
+    "Zeitstempel": "2025-09-04T06:15:00",
+    "Preis (ct/kWh)": 12.0297
+  },
+  {
+    "Zeitstempel": "2025-09-04T06:30:00",
+    "Preis (ct/kWh)": 14.9131
+  },
+  {
+    "Zeitstempel": "2025-09-04T06:45:00",
+    "Preis (ct/kWh)": 16.3994
+  },
+  {
+    "Zeitstempel": "2025-09-04T07:00:00",
+    "Preis (ct/kWh)": 14.6608
+  },
+  {
+    "Zeitstempel": "2025-09-04T07:15:00",
+    "Preis (ct/kWh)": 14.6608
+  },
+  {
+    "Zeitstempel": "2025-09-04T07:30:00",
+    "Preis (ct/kWh)": 13.9349
+  },
+  {
+    "Zeitstempel": "2025-09-04T07:45:00",
+    "Preis (ct/kWh)": 12.0773
+  },
+  {
+    "Zeitstempel": "2025-09-04T08:00:00",
+    "Preis (ct/kWh)": 16.7409
+  },
+  {
+    "Zeitstempel": "2025-09-04T08:15:00",
+    "Preis (ct/kWh)": 14.3966
+  },
+  {
+    "Zeitstempel": "2025-09-04T08:30:00",
+    "Preis (ct/kWh)": 12.1463
+  },
+  {
+    "Zeitstempel": "2025-09-04T08:45:00",
+    "Preis (ct/kWh)": 9.6164
+  },
+  {
+    "Zeitstempel": "2025-09-04T09:00:00",
+    "Preis (ct/kWh)": 14.2241
+  },
+  {
+    "Zeitstempel": "2025-09-04T09:15:00",
+    "Preis (ct/kWh)": 11.6263
+  },
+  {
+    "Zeitstempel": "2025-09-04T09:30:00",
+    "Preis (ct/kWh)": 7.6684
+  },
+  {
+    "Zeitstempel": "2025-09-04T09:45:00",
+    "Preis (ct/kWh)": 5.7287
+  },
+  {
+    "Zeitstempel": "2025-09-04T10:00:00",
+    "Preis (ct/kWh)": 9.0749
+  },
+  {
+    "Zeitstempel": "2025-09-04T10:15:00",
+    "Preis (ct/kWh)": 6.5462
+  },
+  {
+    "Zeitstempel": "2025-09-04T10:30:00",
+    "Preis (ct/kWh)": 3.2189
+  },
+  {
+    "Zeitstempel": "2025-09-04T10:45:00",
+    "Preis (ct/kWh)": 0.3653
+  },
+  {
+    "Zeitstempel": "2025-09-04T11:00:00",
+    "Preis (ct/kWh)": 4.3685
+  },
+  {
+    "Zeitstempel": "2025-09-04T11:15:00",
+    "Preis (ct/kWh)": 2.2146
+  },
+  {
+    "Zeitstempel": "2025-09-04T11:30:00",
+    "Preis (ct/kWh)": 0.689
+  },
+  {
+    "Zeitstempel": "2025-09-04T11:45:00",
+    "Preis (ct/kWh)": -0.2392
+  },
+  {
+    "Zeitstempel": "2025-09-04T12:00:00",
+    "Preis (ct/kWh)": 1.3911
+  },
+  {
+    "Zeitstempel": "2025-09-04T12:15:00",
+    "Preis (ct/kWh)": 0.6021
+  },
+  {
+    "Zeitstempel": "2025-09-04T12:30:00",
+    "Preis (ct/kWh)": 0.4189
+  },
+  {
+    "Zeitstempel": "2025-09-04T12:45:00",
+    "Preis (ct/kWh)": 0.3808
+  },
+  {
+    "Zeitstempel": "2025-09-04T13:00:00",
+    "Preis (ct/kWh)": 0.8616
+  },
+  {
+    "Zeitstempel": "2025-09-04T13:15:00",
+    "Preis (ct/kWh)": 0.9948
+  },
+  {
+    "Zeitstempel": "2025-09-04T13:30:00",
+    "Preis (ct/kWh)": 1.2697
+  },
+  {
+    "Zeitstempel": "2025-09-04T13:45:00",
+    "Preis (ct/kWh)": 1.2043
+  },
+  {
+    "Zeitstempel": "2025-09-04T14:00:00",
+    "Preis (ct/kWh)": 1.353
+  },
+  {
+    "Zeitstempel": "2025-09-04T14:15:00",
+    "Preis (ct/kWh)": 3.451
+  },
+  {
+    "Zeitstempel": "2025-09-04T14:30:00",
+    "Preis (ct/kWh)": 5.0813
+  },
+  {
+    "Zeitstempel": "2025-09-04T14:45:00",
+    "Preis (ct/kWh)": 5.8667
+  },
+  {
+    "Zeitstempel": "2025-09-04T15:00:00",
+    "Preis (ct/kWh)": 5.3181
+  },
+  {
+    "Zeitstempel": "2025-09-04T15:15:00",
+    "Preis (ct/kWh)": 7.2995
+  },
+  {
+    "Zeitstempel": "2025-09-04T15:30:00",
+    "Preis (ct/kWh)": 8.6251
+  },
+  {
+    "Zeitstempel": "2025-09-04T15:45:00",
+    "Preis (ct/kWh)": 10.303
+  },
+  {
+    "Zeitstempel": "2025-09-04T16:00:00",
+    "Preis (ct/kWh)": 6.4355
+  },
+  {
+    "Zeitstempel": "2025-09-04T16:15:00",
+    "Preis (ct/kWh)": 8.6311
+  },
+  {
+    "Zeitstempel": "2025-09-04T16:30:00",
+    "Preis (ct/kWh)": 11.6001
+  },
+  {
+    "Zeitstempel": "2025-09-04T16:45:00",
+    "Preis (ct/kWh)": 13.7933
+  },
+  {
+    "Zeitstempel": "2025-09-04T17:00:00",
+    "Preis (ct/kWh)": 9.019
+  },
+  {
+    "Zeitstempel": "2025-09-04T17:15:00",
+    "Preis (ct/kWh)": 11.2205
+  },
+  {
+    "Zeitstempel": "2025-09-04T17:30:00",
+    "Preis (ct/kWh)": 14.0075
+  },
+  {
+    "Zeitstempel": "2025-09-04T17:45:00",
+    "Preis (ct/kWh)": 16.4946
+  },
+  {
+    "Zeitstempel": "2025-09-04T18:00:00",
+    "Preis (ct/kWh)": 13.7945
+  },
+  {
+    "Zeitstempel": "2025-09-04T18:15:00",
+    "Preis (ct/kWh)": 16.8825
+  },
+  {
+    "Zeitstempel": "2025-09-04T18:30:00",
+    "Preis (ct/kWh)": 23.7964
+  },
+  {
+    "Zeitstempel": "2025-09-04T18:45:00",
+    "Preis (ct/kWh)": 35.318
+  },
+  {
+    "Zeitstempel": "2025-09-04T19:00:00",
+    "Preis (ct/kWh)": 32.8166
+  },
+  {
+    "Zeitstempel": "2025-09-04T19:15:00",
+    "Preis (ct/kWh)": 38.0859
+  },
+  {
+    "Zeitstempel": "2025-09-04T19:30:00",
+    "Preis (ct/kWh)": 42.3711
+  },
+  {
+    "Zeitstempel": "2025-09-04T19:45:00",
+    "Preis (ct/kWh)": 43.8063
+  },
+  {
+    "Zeitstempel": "2025-09-04T20:00:00",
+    "Preis (ct/kWh)": 35.0062
+  },
+  {
+    "Zeitstempel": "2025-09-04T20:15:00",
+    "Preis (ct/kWh)": 26.681
+  },
+  {
+    "Zeitstempel": "2025-09-04T20:30:00",
+    "Preis (ct/kWh)": 24.1332
+  },
+  {
+    "Zeitstempel": "2025-09-04T20:45:00",
+    "Preis (ct/kWh)": 19.2792
+  },
+  {
+    "Zeitstempel": "2025-09-04T21:00:00",
+    "Preis (ct/kWh)": 20.0479
+  },
+  {
+    "Zeitstempel": "2025-09-04T21:15:00",
+    "Preis (ct/kWh)": 15.9234
+  },
+  {
+    "Zeitstempel": "2025-09-04T21:30:00",
+    "Preis (ct/kWh)": 13.8456
+  },
+  {
+    "Zeitstempel": "2025-09-04T21:45:00",
+    "Preis (ct/kWh)": 12.5057
+  },
+  {
+    "Zeitstempel": "2025-09-04T22:00:00",
+    "Preis (ct/kWh)": 16.4541
+  },
+  {
+    "Zeitstempel": "2025-09-04T22:15:00",
+    "Preis (ct/kWh)": 14.1658
+  },
+  {
+    "Zeitstempel": "2025-09-04T22:30:00",
+    "Preis (ct/kWh)": 12.3189
+  },
+  {
+    "Zeitstempel": "2025-09-04T22:45:00",
+    "Preis (ct/kWh)": 10.4779
+  },
+  {
+    "Zeitstempel": "2025-09-04T23:00:00",
+    "Preis (ct/kWh)": 14.3692
+  },
+  {
+    "Zeitstempel": "2025-09-04T23:15:00",
+    "Preis (ct/kWh)": 12.7151
+  },
+  {
+    "Zeitstempel": "2025-09-04T23:30:00",
+    "Preis (ct/kWh)": 11.1134
+  },
+  {
+    "Zeitstempel": "2025-09-04T23:45:00",
+    "Preis (ct/kWh)": 9.683
+  },
+  {
+    "Zeitstempel": "2025-09-05T00:00:00",
+    "Preis (ct/kWh)": 12.0321
+  },
+  {
+    "Zeitstempel": "2025-09-05T00:15:00",
+    "Preis (ct/kWh)": 11.255
+  },
+  {
+    "Zeitstempel": "2025-09-05T00:30:00",
+    "Preis (ct/kWh)": 10.3328
+  },
+  {
+    "Zeitstempel": "2025-09-05T00:45:00",
+    "Preis (ct/kWh)": 9.2772
+  },
+  {
+    "Zeitstempel": "2025-09-05T01:00:00",
+    "Preis (ct/kWh)": 10.7195
+  },
+  {
+    "Zeitstempel": "2025-09-05T01:15:00",
+    "Preis (ct/kWh)": 9.5438
+  },
+  {
+    "Zeitstempel": "2025-09-05T01:30:00",
+    "Preis (ct/kWh)": 9.6438
+  },
+  {
+    "Zeitstempel": "2025-09-05T01:45:00",
+    "Preis (ct/kWh)": 9.0
+  },
+  {
+    "Zeitstempel": "2025-09-05T02:00:00",
+    "Preis (ct/kWh)": 10.0388
+  },
+  {
+    "Zeitstempel": "2025-09-05T02:15:00",
+    "Preis (ct/kWh)": 9.5438
+  },
+  {
+    "Zeitstempel": "2025-09-05T02:30:00",
+    "Preis (ct/kWh)": 9.5426
+  },
+  {
+    "Zeitstempel": "2025-09-05T02:45:00",
+    "Preis (ct/kWh)": 9.5426
+  },
+  {
+    "Zeitstempel": "2025-09-05T03:00:00",
+    "Preis (ct/kWh)": 9.8544
+  },
+  {
+    "Zeitstempel": "2025-09-05T03:15:00",
+    "Preis (ct/kWh)": 9.5533
+  },
+  {
+    "Zeitstempel": "2025-09-05T03:30:00",
+    "Preis (ct/kWh)": 9.6628
+  },
+  {
+    "Zeitstempel": "2025-09-05T03:45:00",
+    "Preis (ct/kWh)": 9.5486
+  },
+  {
+    "Zeitstempel": "2025-09-05T04:00:00",
+    "Preis (ct/kWh)": 9.4545
+  },
+  {
+    "Zeitstempel": "2025-09-05T04:15:00",
+    "Preis (ct/kWh)": 9.8354
+  },
+  {
+    "Zeitstempel": "2025-09-05T04:30:00",
+    "Preis (ct/kWh)": 9.808
+  },
+  {
+    "Zeitstempel": "2025-09-05T04:45:00",
+    "Preis (ct/kWh)": 10.3673
+  },
+  {
+    "Zeitstempel": "2025-09-05T05:00:00",
+    "Preis (ct/kWh)": 8.3003
+  },
+  {
+    "Zeitstempel": "2025-09-05T05:15:00",
+    "Preis (ct/kWh)": 9.5307
+  },
+  {
+    "Zeitstempel": "2025-09-05T05:30:00",
+    "Preis (ct/kWh)": 11.4728
+  },
+  {
+    "Zeitstempel": "2025-09-05T05:45:00",
+    "Preis (ct/kWh)": 14.042
+  },
+  {
+    "Zeitstempel": "2025-09-05T06:00:00",
+    "Preis (ct/kWh)": 10.046
+  },
+  {
+    "Zeitstempel": "2025-09-05T06:15:00",
+    "Preis (ct/kWh)": 13.6148
+  },
+  {
+    "Zeitstempel": "2025-09-05T06:30:00",
+    "Preis (ct/kWh)": 14.6572
+  },
+  {
+    "Zeitstempel": "2025-09-05T06:45:00",
+    "Preis (ct/kWh)": 15.0404
+  },
+  {
+    "Zeitstempel": "2025-09-05T07:00:00",
+    "Preis (ct/kWh)": 15.1213
+  },
+  {
+    "Zeitstempel": "2025-09-05T07:15:00",
+    "Preis (ct/kWh)": 15.3784
+  },
+  {
+    "Zeitstempel": "2025-09-05T07:30:00",
+    "Preis (ct/kWh)": 15.1201
+  },
+  {
+    "Zeitstempel": "2025-09-05T07:45:00",
+    "Preis (ct/kWh)": 14.3966
+  },
+  {
+    "Zeitstempel": "2025-09-05T08:00:00",
+    "Preis (ct/kWh)": 17.0467
+  },
+  {
+    "Zeitstempel": "2025-09-05T08:15:00",
+    "Preis (ct/kWh)": 14.8821
+  },
+  {
+    "Zeitstempel": "2025-09-05T08:30:00",
+    "Preis (ct/kWh)": 13.904
+  },
+  {
+    "Zeitstempel": "2025-09-05T08:45:00",
+    "Preis (ct/kWh)": 12.5914
+  },
+  {
+    "Zeitstempel": "2025-09-05T09:00:00",
+    "Preis (ct/kWh)": 14.762
+  },
+  {
+    "Zeitstempel": "2025-09-05T09:15:00",
+    "Preis (ct/kWh)": 12.8984
+  },
+  {
+    "Zeitstempel": "2025-09-05T09:30:00",
+    "Preis (ct/kWh)": 10.3042
+  },
+  {
+    "Zeitstempel": "2025-09-05T09:45:00",
+    "Preis (ct/kWh)": 8.731
+  },
+  {
+    "Zeitstempel": "2025-09-05T10:00:00",
+    "Preis (ct/kWh)": 12.3474
+  },
+  {
+    "Zeitstempel": "2025-09-05T10:15:00",
+    "Preis (ct/kWh)": 10.7088
+  },
+  {
+    "Zeitstempel": "2025-09-05T10:30:00",
+    "Preis (ct/kWh)": 9.5878
+  },
+  {
+    "Zeitstempel": "2025-09-05T10:45:00",
+    "Preis (ct/kWh)": 8.4585
+  },
+  {
+    "Zeitstempel": "2025-09-05T11:00:00",
+    "Preis (ct/kWh)": 10.8278
+  },
+  {
+    "Zeitstempel": "2025-09-05T11:15:00",
+    "Preis (ct/kWh)": 9.9472
+  },
+  {
+    "Zeitstempel": "2025-09-05T11:30:00",
+    "Preis (ct/kWh)": 9.6985
+  },
+  {
+    "Zeitstempel": "2025-09-05T11:45:00",
+    "Preis (ct/kWh)": 8.3824
+  },
+  {
+    "Zeitstempel": "2025-09-05T12:00:00",
+    "Preis (ct/kWh)": 10.5148
+  },
+  {
+    "Zeitstempel": "2025-09-05T12:15:00",
+    "Preis (ct/kWh)": 9.3117
+  },
+  {
+    "Zeitstempel": "2025-09-05T12:30:00",
+    "Preis (ct/kWh)": 7.9302
+  },
+  {
+    "Zeitstempel": "2025-09-05T12:45:00",
+    "Preis (ct/kWh)": 7.1055
+  },
+  {
+    "Zeitstempel": "2025-09-05T13:00:00",
+    "Preis (ct/kWh)": 10.359
+  },
+  {
+    "Zeitstempel": "2025-09-05T13:15:00",
+    "Preis (ct/kWh)": 8.5989
+  },
+  {
+    "Zeitstempel": "2025-09-05T13:30:00",
+    "Preis (ct/kWh)": 7.6398
+  },
+  {
+    "Zeitstempel": "2025-09-05T13:45:00",
+    "Preis (ct/kWh)": 6.9817
+  },
+  {
+    "Zeitstempel": "2025-09-05T14:00:00",
+    "Preis (ct/kWh)": 8.2586
+  },
+  {
+    "Zeitstempel": "2025-09-05T14:15:00",
+    "Preis (ct/kWh)": 8.2634
+  },
+  {
+    "Zeitstempel": "2025-09-05T14:30:00",
+    "Preis (ct/kWh)": 8.4252
+  },
+  {
+    "Zeitstempel": "2025-09-05T14:45:00",
+    "Preis (ct/kWh)": 8.7679
+  },
+  {
+    "Zeitstempel": "2025-09-05T15:00:00",
+    "Preis (ct/kWh)": 7.4435
+  },
+  {
+    "Zeitstempel": "2025-09-05T15:15:00",
+    "Preis (ct/kWh)": 8.2467
+  },
+  {
+    "Zeitstempel": "2025-09-05T15:30:00",
+    "Preis (ct/kWh)": 9.9555
+  },
+  {
+    "Zeitstempel": "2025-09-05T15:45:00",
+    "Preis (ct/kWh)": 10.2983
+  },
+  {
+    "Zeitstempel": "2025-09-05T16:00:00",
+    "Preis (ct/kWh)": 8.2217
+  },
+  {
+    "Zeitstempel": "2025-09-05T16:15:00",
+    "Preis (ct/kWh)": 9.6985
+  },
+  {
+    "Zeitstempel": "2025-09-05T16:30:00",
+    "Preis (ct/kWh)": 10.4958
+  },
+  {
+    "Zeitstempel": "2025-09-05T16:45:00",
+    "Preis (ct/kWh)": 13.685
+  },
+  {
+    "Zeitstempel": "2025-09-05T17:00:00",
+    "Preis (ct/kWh)": 8.4323
+  },
+  {
+    "Zeitstempel": "2025-09-05T17:15:00",
+    "Preis (ct/kWh)": 9.8413
+  },
+  {
+    "Zeitstempel": "2025-09-05T17:30:00",
+    "Preis (ct/kWh)": 13.1305
+  },
+  {
+    "Zeitstempel": "2025-09-05T17:45:00",
+    "Preis (ct/kWh)": 14.2919
+  },
+  {
+    "Zeitstempel": "2025-09-05T18:00:00",
+    "Preis (ct/kWh)": 9.4902
+  },
+  {
+    "Zeitstempel": "2025-09-05T18:15:00",
+    "Preis (ct/kWh)": 12.2998
+  },
+  {
+    "Zeitstempel": "2025-09-05T18:30:00",
+    "Preis (ct/kWh)": 14.6882
+  },
+  {
+    "Zeitstempel": "2025-09-05T18:45:00",
+    "Preis (ct/kWh)": 16.8337
+  },
+  {
+    "Zeitstempel": "2025-09-05T19:00:00",
+    "Preis (ct/kWh)": 15.188
+  },
+  {
+    "Zeitstempel": "2025-09-05T19:15:00",
+    "Preis (ct/kWh)": 17.4775
+  },
+  {
+    "Zeitstempel": "2025-09-05T19:30:00",
+    "Preis (ct/kWh)": 18.9805
+  },
+  {
+    "Zeitstempel": "2025-09-05T19:45:00",
+    "Preis (ct/kWh)": 22.61
+  },
+  {
+    "Zeitstempel": "2025-09-05T20:00:00",
+    "Preis (ct/kWh)": 20.2181
+  },
+  {
+    "Zeitstempel": "2025-09-05T20:15:00",
+    "Preis (ct/kWh)": 18.2129
+  },
+  {
+    "Zeitstempel": "2025-09-05T20:30:00",
+    "Preis (ct/kWh)": 17.136
+  },
+  {
+    "Zeitstempel": "2025-09-05T20:45:00",
+    "Preis (ct/kWh)": 15.1844
+  },
+  {
+    "Zeitstempel": "2025-09-05T21:00:00",
+    "Preis (ct/kWh)": 16.5505
+  },
+  {
+    "Zeitstempel": "2025-09-05T21:15:00",
+    "Preis (ct/kWh)": 14.8714
+  },
+  {
+    "Zeitstempel": "2025-09-05T21:30:00",
+    "Preis (ct/kWh)": 13.5719
+  },
+  {
+    "Zeitstempel": "2025-09-05T21:45:00",
+    "Preis (ct/kWh)": 11.7631
+  },
+  {
+    "Zeitstempel": "2025-09-05T22:00:00",
+    "Preis (ct/kWh)": 14.5323
+  },
+  {
+    "Zeitstempel": "2025-09-05T22:15:00",
+    "Preis (ct/kWh)": 13.641
+  },
+  {
+    "Zeitstempel": "2025-09-05T22:30:00",
+    "Preis (ct/kWh)": 11.9869
+  },
+  {
+    "Zeitstempel": "2025-09-05T22:45:00",
+    "Preis (ct/kWh)": 10.6279
+  },
+  {
+    "Zeitstempel": "2025-09-05T23:00:00",
+    "Preis (ct/kWh)": 14.3788
+  },
+  {
+    "Zeitstempel": "2025-09-05T23:15:00",
+    "Preis (ct/kWh)": 12.7151
+  },
+  {
+    "Zeitstempel": "2025-09-05T23:30:00",
+    "Preis (ct/kWh)": 11.0384
+  },
+  {
+    "Zeitstempel": "2025-09-05T23:45:00",
+    "Preis (ct/kWh)": 9.8699
   }
 ]
