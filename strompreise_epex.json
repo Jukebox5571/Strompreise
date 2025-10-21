@@ -66430,5 +66430,389 @@
   {
     "Zeitstempel": "2025-10-20T23:45:00",
     "Preis (ct/kWh)": 6.8639
+  },
+  {
+    "Zeitstempel": "2025-10-21T00:00:00",
+    "Preis (ct/kWh)": 8.4145
+  },
+  {
+    "Zeitstempel": "2025-10-21T00:15:00",
+    "Preis (ct/kWh)": 6.4665
+  },
+  {
+    "Zeitstempel": "2025-10-21T00:30:00",
+    "Preis (ct/kWh)": 6.3082
+  },
+  {
+    "Zeitstempel": "2025-10-21T00:45:00",
+    "Preis (ct/kWh)": 5.9417
+  },
+  {
+    "Zeitstempel": "2025-10-21T01:00:00",
+    "Preis (ct/kWh)": 6.2439
+  },
+  {
+    "Zeitstempel": "2025-10-21T01:15:00",
+    "Preis (ct/kWh)": 6.6902
+  },
+  {
+    "Zeitstempel": "2025-10-21T01:30:00",
+    "Preis (ct/kWh)": 6.063
+  },
+  {
+    "Zeitstempel": "2025-10-21T01:45:00",
+    "Preis (ct/kWh)": 4.7219
+  },
+  {
+    "Zeitstempel": "2025-10-21T02:00:00",
+    "Preis (ct/kWh)": 5.5442
+  },
+  {
+    "Zeitstempel": "2025-10-21T02:15:00",
+    "Preis (ct/kWh)": 4.9409
+  },
+  {
+    "Zeitstempel": "2025-10-21T02:30:00",
+    "Preis (ct/kWh)": 4.8754
+  },
+  {
+    "Zeitstempel": "2025-10-21T02:45:00",
+    "Preis (ct/kWh)": 3.7937
+  },
+  {
+    "Zeitstempel": "2025-10-21T03:00:00",
+    "Preis (ct/kWh)": 4.6184
+  },
+  {
+    "Zeitstempel": "2025-10-21T03:15:00",
+    "Preis (ct/kWh)": 4.1579
+  },
+  {
+    "Zeitstempel": "2025-10-21T03:30:00",
+    "Preis (ct/kWh)": 3.7176
+  },
+  {
+    "Zeitstempel": "2025-10-21T03:45:00",
+    "Preis (ct/kWh)": 2.599
+  },
+  {
+    "Zeitstempel": "2025-10-21T04:00:00",
+    "Preis (ct/kWh)": 3.3498
+  },
+  {
+    "Zeitstempel": "2025-10-21T04:15:00",
+    "Preis (ct/kWh)": 4.1245
+  },
+  {
+    "Zeitstempel": "2025-10-21T04:30:00",
+    "Preis (ct/kWh)": 4.9802
+  },
+  {
+    "Zeitstempel": "2025-10-21T04:45:00",
+    "Preis (ct/kWh)": 4.5958
+  },
+  {
+    "Zeitstempel": "2025-10-21T05:00:00",
+    "Preis (ct/kWh)": 4.4506
+  },
+  {
+    "Zeitstempel": "2025-10-21T05:15:00",
+    "Preis (ct/kWh)": 5.474
+  },
+  {
+    "Zeitstempel": "2025-10-21T05:30:00",
+    "Preis (ct/kWh)": 6.8306
+  },
+  {
+    "Zeitstempel": "2025-10-21T05:45:00",
+    "Preis (ct/kWh)": 7.021
+  },
+  {
+    "Zeitstempel": "2025-10-21T06:00:00",
+    "Preis (ct/kWh)": 6.3951
+  },
+  {
+    "Zeitstempel": "2025-10-21T06:15:00",
+    "Preis (ct/kWh)": 7.5803
+  },
+  {
+    "Zeitstempel": "2025-10-21T06:30:00",
+    "Preis (ct/kWh)": 10.591
+  },
+  {
+    "Zeitstempel": "2025-10-21T06:45:00",
+    "Preis (ct/kWh)": 10.591
+  },
+  {
+    "Zeitstempel": "2025-10-21T07:00:00",
+    "Preis (ct/kWh)": 10.0983
+  },
+  {
+    "Zeitstempel": "2025-10-21T07:15:00",
+    "Preis (ct/kWh)": 10.9111
+  },
+  {
+    "Zeitstempel": "2025-10-21T07:30:00",
+    "Preis (ct/kWh)": 11.2324
+  },
+  {
+    "Zeitstempel": "2025-10-21T07:45:00",
+    "Preis (ct/kWh)": 11.1229
+  },
+  {
+    "Zeitstempel": "2025-10-21T08:00:00",
+    "Preis (ct/kWh)": 12.3617
+  },
+  {
+    "Zeitstempel": "2025-10-21T08:15:00",
+    "Preis (ct/kWh)": 11.6382
+  },
+  {
+    "Zeitstempel": "2025-10-21T08:30:00",
+    "Preis (ct/kWh)": 10.873
+  },
+  {
+    "Zeitstempel": "2025-10-21T08:45:00",
+    "Preis (ct/kWh)": 10.6707
+  },
+  {
+    "Zeitstempel": "2025-10-21T09:00:00",
+    "Preis (ct/kWh)": 12.2927
+  },
+  {
+    "Zeitstempel": "2025-10-21T09:15:00",
+    "Preis (ct/kWh)": 11.5454
+  },
+  {
+    "Zeitstempel": "2025-10-21T09:30:00",
+    "Preis (ct/kWh)": 10.2816
+  },
+  {
+    "Zeitstempel": "2025-10-21T09:45:00",
+    "Preis (ct/kWh)": 8.8358
+  },
+  {
+    "Zeitstempel": "2025-10-21T10:00:00",
+    "Preis (ct/kWh)": 11.4573
+  },
+  {
+    "Zeitstempel": "2025-10-21T10:15:00",
+    "Preis (ct/kWh)": 9.7342
+  },
+  {
+    "Zeitstempel": "2025-10-21T10:30:00",
+    "Preis (ct/kWh)": 8.8917
+  },
+  {
+    "Zeitstempel": "2025-10-21T10:45:00",
+    "Preis (ct/kWh)": 8.1598
+  },
+  {
+    "Zeitstempel": "2025-10-21T11:00:00",
+    "Preis (ct/kWh)": 10.4161
+  },
+  {
+    "Zeitstempel": "2025-10-21T11:15:00",
+    "Preis (ct/kWh)": 8.7798
+  },
+  {
+    "Zeitstempel": "2025-10-21T11:30:00",
+    "Preis (ct/kWh)": 7.9123
+  },
+  {
+    "Zeitstempel": "2025-10-21T11:45:00",
+    "Preis (ct/kWh)": 6.9246
+  },
+  {
+    "Zeitstempel": "2025-10-21T12:00:00",
+    "Preis (ct/kWh)": 6.7033
+  },
+  {
+    "Zeitstempel": "2025-10-21T12:15:00",
+    "Preis (ct/kWh)": 6.0619
+  },
+  {
+    "Zeitstempel": "2025-10-21T12:30:00",
+    "Preis (ct/kWh)": 6.5212
+  },
+  {
+    "Zeitstempel": "2025-10-21T12:45:00",
+    "Preis (ct/kWh)": 5.8381
+  },
+  {
+    "Zeitstempel": "2025-10-21T13:00:00",
+    "Preis (ct/kWh)": 5.1848
+  },
+  {
+    "Zeitstempel": "2025-10-21T13:15:00",
+    "Preis (ct/kWh)": 5.186
+  },
+  {
+    "Zeitstempel": "2025-10-21T13:30:00",
+    "Preis (ct/kWh)": 4.4566
+  },
+  {
+    "Zeitstempel": "2025-10-21T13:45:00",
+    "Preis (ct/kWh)": 4.1543
+  },
+  {
+    "Zeitstempel": "2025-10-21T14:00:00",
+    "Preis (ct/kWh)": 4.5387
+  },
+  {
+    "Zeitstempel": "2025-10-21T14:15:00",
+    "Preis (ct/kWh)": 4.7862
+  },
+  {
+    "Zeitstempel": "2025-10-21T14:30:00",
+    "Preis (ct/kWh)": 5.4347
+  },
+  {
+    "Zeitstempel": "2025-10-21T14:45:00",
+    "Preis (ct/kWh)": 6.0583
+  },
+  {
+    "Zeitstempel": "2025-10-21T15:00:00",
+    "Preis (ct/kWh)": 5.906
+  },
+  {
+    "Zeitstempel": "2025-10-21T15:15:00",
+    "Preis (ct/kWh)": 7.1031
+  },
+  {
+    "Zeitstempel": "2025-10-21T15:30:00",
+    "Preis (ct/kWh)": 8.2181
+  },
+  {
+    "Zeitstempel": "2025-10-21T15:45:00",
+    "Preis (ct/kWh)": 10.779
+  },
+  {
+    "Zeitstempel": "2025-10-21T16:00:00",
+    "Preis (ct/kWh)": 7.5803
+  },
+  {
+    "Zeitstempel": "2025-10-21T16:15:00",
+    "Preis (ct/kWh)": 8.6739
+  },
+  {
+    "Zeitstempel": "2025-10-21T16:30:00",
+    "Preis (ct/kWh)": 10.992
+  },
+  {
+    "Zeitstempel": "2025-10-21T16:45:00",
+    "Preis (ct/kWh)": 12.376
+  },
+  {
+    "Zeitstempel": "2025-10-21T17:00:00",
+    "Preis (ct/kWh)": 9.3237
+  },
+  {
+    "Zeitstempel": "2025-10-21T17:15:00",
+    "Preis (ct/kWh)": 12.8425
+  },
+  {
+    "Zeitstempel": "2025-10-21T17:30:00",
+    "Preis (ct/kWh)": 13.8516
+  },
+  {
+    "Zeitstempel": "2025-10-21T17:45:00",
+    "Preis (ct/kWh)": 15.5236
+  },
+  {
+    "Zeitstempel": "2025-10-21T18:00:00",
+    "Preis (ct/kWh)": 13.2423
+  },
+  {
+    "Zeitstempel": "2025-10-21T18:15:00",
+    "Preis (ct/kWh)": 14.449
+  },
+  {
+    "Zeitstempel": "2025-10-21T18:30:00",
+    "Preis (ct/kWh)": 16.3387
+  },
+  {
+    "Zeitstempel": "2025-10-21T18:45:00",
+    "Preis (ct/kWh)": 16.4529
+  },
+  {
+    "Zeitstempel": "2025-10-21T19:00:00",
+    "Preis (ct/kWh)": 15.5997
+  },
+  {
+    "Zeitstempel": "2025-10-21T19:15:00",
+    "Preis (ct/kWh)": 14.7286
+  },
+  {
+    "Zeitstempel": "2025-10-21T19:30:00",
+    "Preis (ct/kWh)": 14.3502
+  },
+  {
+    "Zeitstempel": "2025-10-21T19:45:00",
+    "Preis (ct/kWh)": 13.1507
+  },
+  {
+    "Zeitstempel": "2025-10-21T20:00:00",
+    "Preis (ct/kWh)": 14.3157
+  },
+  {
+    "Zeitstempel": "2025-10-21T20:15:00",
+    "Preis (ct/kWh)": 12.8532
+  },
+  {
+    "Zeitstempel": "2025-10-21T20:30:00",
+    "Preis (ct/kWh)": 12.0214
+  },
+  {
+    "Zeitstempel": "2025-10-21T20:45:00",
+    "Preis (ct/kWh)": 10.2043
+  },
+  {
+    "Zeitstempel": "2025-10-21T21:00:00",
+    "Preis (ct/kWh)": 11.6299
+  },
+  {
+    "Zeitstempel": "2025-10-21T21:15:00",
+    "Preis (ct/kWh)": 10.2007
+  },
+  {
+    "Zeitstempel": "2025-10-21T21:30:00",
+    "Preis (ct/kWh)": 10.1376
+  },
+  {
+    "Zeitstempel": "2025-10-21T21:45:00",
+    "Preis (ct/kWh)": 8.6584
+  },
+  {
+    "Zeitstempel": "2025-10-21T22:00:00",
+    "Preis (ct/kWh)": 10.8504
+  },
+  {
+    "Zeitstempel": "2025-10-21T22:15:00",
+    "Preis (ct/kWh)": 9.6497
+  },
+  {
+    "Zeitstempel": "2025-10-21T22:30:00",
+    "Preis (ct/kWh)": 10.1543
+  },
+  {
+    "Zeitstempel": "2025-10-21T22:45:00",
+    "Preis (ct/kWh)": 9.3272
+  },
+  {
+    "Zeitstempel": "2025-10-21T23:00:00",
+    "Preis (ct/kWh)": 10.2007
+  },
+  {
+    "Zeitstempel": "2025-10-21T23:15:00",
+    "Preis (ct/kWh)": 9.401
+  },
+  {
+    "Zeitstempel": "2025-10-21T23:30:00",
+    "Preis (ct/kWh)": 8.8358
+  },
+  {
+    "Zeitstempel": "2025-10-21T23:45:00",
+    "Preis (ct/kWh)": 8.2419
   }
 ]
