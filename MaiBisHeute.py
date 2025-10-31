@@ -1,0 +1,65 @@
+import requests
+from datetime import datetime, timedelta
+import os
+import json
+
+# === Konfiguration ===
+api_base_url = "https://192.168.40.130/RESTApi/FXInterface/EPEX15minIntraday?date="
+token = os.getenv("STROM_API_TOKEN")
+
+headers = {
+    "X-Token-ID": "CYpMHSpBCyMyCwQiNAKJlLGiaABEwFTTBoSTL92IYuLVurKBkuDeb8FfWU9wsIqhh6wnbdOFI57qauD08M4p3UWlpnVAy1vYTj9NZEAbxxJldZBxTvVjg4htfWiKKt3q",  # <-- Anpassen oder Umgebungsvariable nutzen
+    "Accept": "application/json"
+}
+
+# === Zeitraum definieren ===
+start_datum = datetime.strptime("01.05.2025", "%d.%m.%Y")
+heute = datetime.now()
+tage = (heute - start_datum).days + 1  # inkl. heute
+
+
+json_datei = "strompreise_epex.json"
+preise_gesamt = []
+
+# Vorhandene Daten einlesen
+if os.path.exists(json_datei):
+    with open(json_datei, "r", encoding="utf-8") as f:
+        preise_gesamt = json.load(f)
+
+# Set für vorhandene Timestamps
+vorhandene = {eintrag["Zeitstempel"] for eintrag in preise_gesamt}
+
+# === Daten abrufen ===
+for tag_offset in range(tage):
+    aktuelles_datum = start_datum + timedelta(days=tag_offset)
+    datum_str = aktuelles_datum.strftime("%d.%m.%Y")
+    api_url = api_base_url + datum_str
+
+    try:
+        response = requests.get(api_url, headers=headers, verify=False, timeout=10)
+        response.raise_for_status()
+        raw = response.json()
+        werte = raw.get("data", [])
+
+        for index, preis in enumerate(werte):
+            zeitpunkt = aktuelles_datum + timedelta(minutes=15 * index)
+            zeitstempel = zeitpunkt.isoformat()
+
+            if zeitstempel not in vorhandene:
+                preise_gesamt.append({
+                    "Zeitstempel": zeitstempel,
+                    "Preis (ct/kWh)": round(preis, 4)
+                })
+                vorhandene.add(zeitstempel)
+
+        print(f"{datum_str} erfolgreich geladen.")
+
+    except Exception as e:
+        print(f"Fehler bei {datum_str}: {e}")
+
+# === Speichern ===
+preise_gesamt.sort(key=lambda x: x["Zeitstempel"])
+with open(json_datei, "w", encoding="utf-8") as f:
+    json.dump(preise_gesamt, f, ensure_ascii=False, indent=2)
+
+print("✅ Alle Daten gespeichert.")
