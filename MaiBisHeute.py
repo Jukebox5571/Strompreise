@@ -13,7 +13,7 @@ headers = {
 }
 
 # === Zeitraum definieren ===
-start_datum = datetime.strptime("01.05.2025", "%d.%m.%Y")
+start_datum = datetime.strptime("01.01.2025", "%d.%m.%Y")
 heute = datetime.now()
 tage = (heute - start_datum).days + 1  # inkl. heute
 
